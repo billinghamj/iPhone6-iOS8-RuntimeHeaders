@@ -28,6 +28,7 @@
 + (id)__imDataWithHexString:(id)arg1;
 + (id)MCDataWithCFData:(struct __CFData { }*)arg1;
 + (id)MCDataWithHexString:(id)arg1;
++ (id)dataWithHexString:(id)arg1;
 
 - (bool)_isSafeResumeDataForBackgroundDownload:(int)arg1;
 - (id)initWithBytesNoCopy:(void*)arg1 length:(unsigned long long)arg2 deallocator:(id)arg3;
@@ -118,5 +119,6 @@
 - (id)base64Decoded;
 - (id)hexStringValue;
 - (id)md5Digest;
+- (id)asHexString;
 
 @end

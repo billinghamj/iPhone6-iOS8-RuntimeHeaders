@@ -96,5 +96,6 @@
 - (id)_ui_dequeue;
 - (id)_ui_peek;
 - (void)_ui_enqueue:(id)arg1;
+- (void)setObject:(id)arg1 atIndex:(unsigned long long)arg2;
 
 @end
